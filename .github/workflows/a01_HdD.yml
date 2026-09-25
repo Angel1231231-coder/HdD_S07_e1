@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "inicio"
-        run: echo "Ok"
+        run: echo "Oki"
 
 
       - name: "varios"
