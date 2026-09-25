@@ -11,5 +11,7 @@ jobs:
         run: echo "Ok"
 
 
-      - name: "fecha"
-        run: date
+      - name: "varios"
+        run: |
+          date
+          echo "Autor ${{github.actor}}"
